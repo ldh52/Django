@@ -25,11 +25,12 @@ SECRET_KEY = '6r%9(jhm^0&v42u()k5a1j6jer$jge82q(dmvs42ik5umyb4h7'
 # SECURITY WARNING: don't run with debug turned on in production!
 # DEBUG = True
 # 배포시 추가 코드 1
-DEBUG = False
+DEBUG = True
 
 # ALLOWED_HOSTS = []
 # 배포시 추가 코드 2
-ALLOWED_HOSTS = ['.pythonanywhere.com']
+# ALLOWED_HOSTS = ['.pythonanywhere.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -124,4 +125,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 # 배포시 추가 코드 3
-STATIC_ROOT = os.path.join(BASE_DIR,'static')
+# STATIC_ROOT = os.path.join(BASE_DIR,'static')
