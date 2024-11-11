@@ -28,11 +28,14 @@ h2 {
 
 .food-container {
   width:660px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.food {
+/* .food {
   background-color : white;
   width: 300px;
   margin-left: auto;
@@ -43,7 +46,15 @@ h2 {
   float: left;
   margin-left: 15px;
   margin-right: 15px;
-}
+} */
+
+.food {
+  background-color : white;
+  width: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 50px;
+  }
 
 .food h3 {
   color: #58595b;
