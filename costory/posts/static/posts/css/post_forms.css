@@ -1,0 +1,95 @@
+/* 기본 스타일 */
+body {
+    font-family: 'NanumMyeongjo', sans-serif;
+    background: #2b2a2e;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.error {
+    color: red;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.editor {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.submit {
+    margin-top: 20px;
+    text-align: right;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #4CAF50; /* 버튼 색상 */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049; /* 호버 색상 */
+}
+
+textarea, input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 300px; /* 텍스트 영역 높이 조정 */
+    resize: none; /* 크기 조정 비활성화 */
+}
+
+textarea::placeholder, input::placeholder {
+    color: #a9abb7;
+}
+
+.btn_back {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btn_back a {
+    display: inline-block;
+    padding: 10px 15px;
+    color: #e38917;
+    font-size: 15px;
+    border: 1px solid #e38917;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn_back a:hover {
+    background-color: #e38917;
+    color: #fff;
+}
